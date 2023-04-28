@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/hratbutton"
+        android:layout_width="118dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="56dp"
+        android:text="Hrát"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/bgstart"
+        android:layout_width="553dp"
+        android:layout_height="792dp"
+        android:layout_marginTop="99dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/skynewupscale" />
+
+    <TextView
+        android:id="@+id/skyjumptext"
+        android:layout_width="354dp"
+        android:layout_height="113dp"
+        android:text="SKYJUMP"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <ImageView
+        android:id="@+id/island"
+        android:layout_width="260dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toTopOf="@+id/hratbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/island" />
+
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="250dp"
+        android:layout_height="528dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/hratbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/character" />
+
+    <Button
+        android:id="@+id/resetskore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET HIGHSCORE"
+        android:textColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="5dp" />
+
+    zdroje obrazku:
+    pozadi: https://www.istockphoto.com/cs/vektor/kreslen%C3%A1-modr%C3%A1-zakalen%C3%A1-obloha-horizont%C3%A1ln%C3%AD-beze%C5%A1v%C3%BD-vzor-s-b%C3%ADl%C3%BDmi-na%C4%8Dechran%C3%BDmi-gm1046976706-280083263
+    ostrov: https://www.istockphoto.com/cs/vektor/l%C3%A9taj%C3%ADc%C3%AD-ostrov-se-zem%C3%AD-a-tr%C3%A1vou-izolovanou-na-b%C3%ADl%C3%A9m-pozad%C3%AD-podrobn%C4%9B-v-kreslen%C3%A9m-gm1341415338-421171761
+
+</androidx.constraintlayout.widget.ConstraintLayout>
